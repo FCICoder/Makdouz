@@ -1,0 +1,94 @@
+.titleLogo::before {
+  font-family: 'Rubik', sans-serif;
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 8.5%;
+  width: 2px;
+  height: 60px;
+  background-color: rgb(88, 95, 192);
+}
+.icons{
+  font-family: 'Rubik', sans-serif;
+  font-size: smaller;
+}
+.responsiveText {
+  font-family: 'Rubik', sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 1.7vw;
+  font-weight: 600;
+}
+.decorate{
+  font-family: 'Rubik', sans-serif;
+  cursor: default;
+  color: gray;
+  text-decoration: underline;
+  text-underline-offset: 9px;
+  text-decoration-color: rgb(46, 149, 158);
+} 
+
+.responsiveLink{
+  font-family: 'Rubik', sans-serif;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1.4vw;
+  font-weight: 200;
+}
+.address{
+  font-family: 'Rubik', sans-serif;
+  cursor: default;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1.4vw;
+  font-weight: 200; 
+}
+.responsiveLink:hover {
+  cursor: pointer;
+  color: gray;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: rgb(181, 181, 181);
+}
+@media only screen and (max-width: 768px) {
+  .responsiveText {
+    font-family: 'Rubik', sans-serif;
+    font-size:4.5vw;
+  }
+
+  .responsiveLink {
+    text-decoration: none;
+    font-size: 3vw;
+  }
+  .address {
+    font-size: 2.2vw;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .responsiveText {
+    font-size: 4.1vw;
+  }
+
+  .responsiveLink {
+    font-size: 4vw;
+  }
+  .address {
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .responsiveText {
+    font-size: 4.5vw;
+  }
+
+  .responsiveLink {
+    font-size: 3.5vw;
+  }
+  .address {
+    font-size: 2.9vw;
+  }
+  .icons{
+    font-size: 3vw;
+  }
+}
