@@ -135,6 +135,15 @@ console.log(lng);
                   </li>
                   <li className="nav-item">
                     <Link
+                      className={`${router == `/${lng}/careers` ? `${styles.active}` : ""
+                        } ${styles.nav_link}`}
+                      href={`/${lng}/careers`}
+                    >
+                      {lng == "en" ? "Careers" : "مهنتنا"}
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
                       className={`${router == `/${lng}/Contactus` ? `${styles.active}` : ""
                         } ${styles.nav_link}`}
                       href={`/${lng}/Contactus`}
