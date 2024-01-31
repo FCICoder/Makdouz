@@ -6,6 +6,7 @@ import { Navbar } from "./Components/Navbar/navbar";
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Footer } from "./Components/Footer/Footer";
+import ScrolltoTop from "./Home/ScrolltoTop";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -17,17 +18,19 @@ export async function generateStaticParams() {
   return languages.map((lng) => ({ lng }))
 }
 
-export default function RootLayout({ children ,params: {
+export default function RootLayout({ children, params: {
   lng
-}}) {
+} }) {
   return (
 
-<html lang={lng} dir={dir(lng)}>
+    <html lang={lng} dir={dir(lng)}>
       <body className={inter.className}>
-<Navbar lng={lng}/>
+        <Navbar lng={lng} />
         {children}
         <Footer lng={lng} />
-        </body>
+      <ScrolltoTop />
+
+      </body>
 
     </html>
   );

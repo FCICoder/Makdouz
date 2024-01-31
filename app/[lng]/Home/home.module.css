@@ -1,0 +1,174 @@
+
+
+.content h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+.content p {
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+}
+.content {
+    font-family: 'Rubik', sans-serif;
+}
+
+@media (min-width: 992px) {
+    .content {
+        position: relative;
+        /* z-index: 999; */
+        background-color: white;
+        height: 200px;
+        top: 18rem;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .infoSection img {
+        width: 205%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .infoSection img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .infoSection img {
+        margin-top: 15rem;
+        width: 100%;
+        height: 40%;
+    }
+}
+
+.image{
+    width: 100%;
+    height: 70%;
+}
+.image > img{
+    width: 100%;
+}
+@media (max-width: 468px) {
+    .image{
+        width: 100%;
+        height: 70% !important; 
+    }
+}
+
+
+.partners img{
+    
+    width: 60% !important;
+
+}
+
+.nextbtn{
+    position: absolute;
+    top: 40%;
+    right: 0;
+    z-index: 999;
+    color: aliceblue !important;
+    font-size: 30px;
+    background-color: transparent;
+    border: none !important;
+}
+.prevbtn{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 999;
+    color: aliceblue !important;
+    font-size: 30px;
+    border: none !important;
+    background-color: transparent;
+}
+
+@media (max-width: 400px) {
+.nextbtn{
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    color: aliceblue !important;
+    font-size: 20px;
+    background-color: transparent;
+    border: none !important;
+}
+.prevbtn{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 999;
+    color: aliceblue !important;
+    font-size: 20px;
+    border: none !important;
+    background-color: transparent;
+}
+}
+
+.nextbtnP{
+    position: absolute;
+    top: 55%;
+    right: 0;
+    z-index: 999;
+    font-size: 30px;
+    background-color: transparent;
+    border: none !important;
+}
+.prevbtnP{
+    position: absolute;
+    top: 55%;
+    left: 0;
+    z-index: 999;
+    font-size: 30px;
+    border: none !important;
+    background-color: transparent;
+}
+
+@media (max-width: 400px) {
+.nextbtnP{
+    position: absolute;
+    top: 55%;
+    z-index: 999;
+    font-size: 20px;
+    background-color: transparent;
+    border: none !important;
+}
+.prevbtnP{
+    position: absolute;
+    top: 55%;
+    left: 0;
+    z-index: 999;
+    font-size: 20px;
+    border: none !important;
+    background-color: transparent;
+}
+}
+
+.slider   button {
+    position: relative !important;
+    z-index: 999;
+    top: 0px !important;
+    background-color:transparent !important;
+    border-radius: 50%;
+}
+.slider {
+    display: flex;
+    justify-content: center;
+}
+.slider  ul  {
+    background-color: rgb(243, 243, 250) !important;
+    width: 80px !important;
+    padding: 7px 0px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center !important;
+    transform: translateY(-100%);
+    z-index: 999;
+    border-radius: 18px !important;
+}
+
+.slider ul li[slick-active] {
+    background-color: blue !important;
+}
