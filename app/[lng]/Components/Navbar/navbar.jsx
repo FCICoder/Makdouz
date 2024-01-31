@@ -10,7 +10,6 @@ if (typeof document !== 'undefined') {
 }
 export const Navbar = ({ lng }) => {
   const router = usePathname();
-console.log(lng);
   // function select(e) {
   //   if (window.location.search !== e.target.search) {
   //     window.location.href = e.target.href;
