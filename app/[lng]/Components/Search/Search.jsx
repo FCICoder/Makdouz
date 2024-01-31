@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useState } from "react";
 import styles from "../Contact-link/contact.module.css";
-import products from '../../Category/products.json'
+// import products from '../../Category/products.json'
 import Link from "next/link";
 
 const  Search= ({ lng }) => {
