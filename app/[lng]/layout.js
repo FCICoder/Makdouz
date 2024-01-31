@@ -26,7 +26,7 @@ export default function RootLayout({ children, params: {
     <html lang={lng} dir={dir(lng)}>
       <body className={inter.className}>
         <Navbar lng={lng} />
-        {children}
+        {children }
         <Footer lng={lng} />
       <ScrolltoTop />
 
