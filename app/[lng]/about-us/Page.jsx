@@ -9,6 +9,8 @@ export default async function Page({params:{lng}}) {
   const { t } = await useTranslation(lng, "about-us");
 
   return <>
+
+<div id="container-aboutus">
   <div className="row m-auto my-5">
     <div className="col-md-6" >
       <h3  className={`${lng === 'en' ? Astyles.head1 : Astyles.head1Ar} `}>{t('part1')}</h3>
@@ -55,7 +57,7 @@ export default async function Page({params:{lng}}) {
       <p className={`${Astyles.para} pt-3`}>{t('part15')}</p>
     </div>
   </div>
-  
+  </div>
   
   </>;
 }

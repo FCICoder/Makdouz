@@ -64,10 +64,14 @@ export default function Page({ params: { lng } }) {
     };
   
     return <>
-    <div className="container">
+    <div className="container" id="quoter">
+      <h3>Quote Request Form</h3>
+      <p>Fields marked with an <span className="ms-1 me-1 text-danger mt-4 ">*</span> are required</p>
+    </div>
+    <div className="container-quote">
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
-            <label htmlFor="name" className="form-label">Name</label>
+            <label htmlFor="name" className="form-label">Name <span className="ms-1 me-1 text-danger">*</span></label>
             <input
               type="text"
               name="name"
@@ -79,7 +83,7 @@ export default function Page({ params: { lng } }) {
           </div>
     
           <div className="mb-3">
-            <label htmlFor="company" className="form-label">Company</label>
+            <label htmlFor="company" className="form-label">Company <span className="ms-1 me-1 text-danger">*</span></label>
             <input
               type="text"
               name="company"
@@ -90,32 +94,36 @@ export default function Page({ params: { lng } }) {
             {errors.company && <div className="invalid-feedback">{errors.company}</div>}
           </div>
     
-          <div className="mb-3">
-            <label htmlFor="email" className="form-label">Email</label>
+          <div className="d-flex w-100 " >
+          <div className="mb-3 w-50 " style={{paddingRight:"5%"}}>
+            <label htmlFor="email" className="form-label ">Email</label>
             <input
               type="email"
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className={`form-control ${errors.email ? 'is-invalid' : ''}`}
+              className={`form-control   ${errors.email ? 'is-invalid' : ''}`}
+              style={{width:"100%"}}
             />
             {errors.email && <div className="invalid-feedback">{errors.email}</div>}
           </div>
     
-          <div className="mb-3">
-            <label htmlFor="phone" className="form-label">Phone</label>
+          <div className="mb-3 w-50">
+            <label htmlFor="phone" className="form-label">Phone <span className="ms-1 me-1 text-danger">*</span></label>
             <input
               type="tel"
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              className={`form-control ${errors.phone ? 'is-invalid' : ''}`}
+              style={{width:"85%"}}
+              className={` form-control ${errors.phone ? 'is-invalid' : ''}`}
             />
             {errors.phone && <div className="invalid-feedback">{errors.phone}</div>}
           </div>
+          </div>
     
           <div className="mb-3">
-            <label htmlFor="country" className="form-label">Country</label>
+            <label htmlFor="country" className="form-label">Country <span className="ms-1 me-1 text-danger">*</span></label>
             <input
               type="text"
               name="country"
@@ -127,16 +135,17 @@ export default function Page({ params: { lng } }) {
           </div>
     
           <div className="mb-3">
-            <label htmlFor="message" className="form-label">Message</label>
+            <label htmlFor="message" className="form-label">Message <span className="ms-1 me-1 text-danger">*</span></label>
             <textarea
               name="message"
               value={formData.message}
               onChange={handleChange}
               className="form-control"
+              rows="5"
             ></textarea>
           </div>
     
-          <button type="submit" className="btn btn-primary">Submit</button>
+          <button type="submit" className="btn btn-dark rounded-0  text-uppercase">Submit </button>
         </form>
         </div>
         </>

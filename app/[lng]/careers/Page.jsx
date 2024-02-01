@@ -8,13 +8,14 @@ export default async function Page({ params: { lng } }) {
   return (
     <>
       <div
-        className={`py-2 ${Cstyles.contain1} `}
-   
-      >
-        <p className={`${Cstyles.head1} text-center fw-bold`}>{t("part0")}</p>
-        <div className={`${Cstyles.fadeIn}  text-center w-50 m-auto mt-5`}>
-          <p>{t("part0.1")}</p>
+        className={`py-2 ${Cstyles.contain1} d-flex align-items-center  `}>
+      <div id="content-carrer" >
+      <h1 className={`${Cstyles.head1} text-center fw-bold`}>{t("part0")}</h1>
+        <div className={`${Cstyles.fadeIn}  text-center m-auto `} style={{width:"59%"}}>
+          <p className={`${Cstyles.para}`}>{t("part0.1")}</p>
         </div>
+      </div>
+        
       </div>
       <div
         className={`${Cstyles.custom}`}

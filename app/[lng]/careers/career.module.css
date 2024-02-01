@@ -1,12 +1,32 @@
 .contain1 {
-  background: rgb(34, 195, 69);
+  font-family: 'Rubik', sans-serif;
+  background: rgb(99, 194, 120);
   background: linear-gradient(
     0deg,
-    rgba(34, 195, 69, 1) 25%,
-    rgba(240, 210, 255, 1) 72%
+    rgb(110, 226, 135) 25%,
+    rgba(240, 230, 255, 1) 72%
   );
-  height: 45vh;
+  
+  /* height: 80% !important; */
 }
+
+.contain1 h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 23px !important;
+  color: #2D2D2D;
+  line-height: 23px !important;
+  font-weight: 500 !important;
+}
+
+.contain1 p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px !important;
+  color: #37373D;
+  line-height: 27px !important;
+  font-weight: 400 !important;
+}
+
+
 .container {
   width: 90%;
   max-width: 800px;
