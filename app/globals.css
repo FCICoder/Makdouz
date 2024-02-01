@@ -138,6 +138,7 @@ section {
 
 .container-quote input {
     width: 45%;
+    height: 45px;
     box-shadow:  none !important;
     border-radius: 0 !important;
     border-color: #8B8B8B;  
@@ -180,4 +181,21 @@ section {
     font-size: 15px;
     line-height: 27px;
     margin-top: 20px !important;
+}
+
+
+@media (max-width:760px){
+    .container-quote{
+        width: 97%;
+    }
+    .container-quote input {
+        width: 100%;
+    }
+#specs :first-child {
+    padding: 0 !important;
+    width: 100% !important;
+}
+#specs :last-child{
+    width: 100% !important;
+}
 }

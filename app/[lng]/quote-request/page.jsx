@@ -94,7 +94,7 @@ export default function Page({ params: { lng } }) {
             {errors.company && <div className="invalid-feedback">{errors.company}</div>}
           </div>
     
-          <div className="d-flex w-100 " >
+          <div className="d-md-flex w-100  " id="specs" >
           <div className="mb-3 w-50 " style={lng=='en'?{paddingRight:"5%"}:{paddingLeft:"5%"}}>
             <label htmlFor="email" className="form-label ">{lng=='en'?'Email':'البريد الالكترونى'}</label>
             <input
