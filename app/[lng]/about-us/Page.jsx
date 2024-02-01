@@ -5,56 +5,54 @@ import Astyles from './about.module.css'
 import olives from '@/public/assets/assorted-olives.jpg'
 import { useTranslation } from "@/app/i18n";
 
-export default async function Page({lng}) {
+export default async function Page({params:{lng}}) {
   const { t } = await useTranslation(lng, "about-us");
 
   return <>
-  <div className="row m-auto my-2">
+  <div className="row m-auto my-5">
     <div className="col-md-6" >
-      <h3>{t('part1')}</h3>
-      <p className={`${Astyles.para}`}>{t('part1.1')}</p>
+      <h3  className={`${lng === 'en' ? Astyles.head1 : Astyles.head1Ar} `}>{t('part1')}</h3>
+      <p className={`${Astyles.para} pt-3`}>{t('part1.1')}</p>
       <p className={`${Astyles.para}`}>{t('part2')}</p>
       <p className={`${Astyles.para}`}>{t('part3')}</p>
-
-
     </div>
-    <div className="border rounded col-md-6 p-1">
+    <div className=" col-md-6 p-1 text-center">
     <Image
       src={olives}
       width={500}
       height={400}
       alt="assorted-olives"
-      className="img-fluid rounded"
+      className="img-fluid rounded center"
     />
     </div>
 
   </div>
-  <div className="row m-0 p-0">
-    <div className="col-md-6">
-      <h3 className={`${Astyles.head1}`}>{t('part4')}</h3>
-      <p className={`${Astyles.para}`}>{t('part5')}</p>
+  <div className="row my-5 mx-0 p-0">
+    <div className="col-md-6 my-2">
+      <h3  className={`${lng === 'en' ? Astyles.head1 : Astyles.head1Ar}`}>{t('part4')}</h3>
+      <p className={`${Astyles.para} pt-3`}>{t('part5')}</p>
 
 
     </div>
-    <div className="col-md-6">
-    <h3 className={`${Astyles.head1}`}>{t('part6')}</h3>
-      <p className={`${Astyles.para}`}>{t('part7')}</p>
+    <div className="col-md-6 mb-2">
+    <h3  className={`${lng === 'en' ? Astyles.head1 :Astyles.head1Ar}`}>{t('part6')}</h3>
+      <p className={`${Astyles.para} pt-3`}>{t('part7')}</p>
     </div>
-    <div className="col-md-6">
-    <h3 className={`${Astyles.head1}`}>{t('part8')}</h3>
-      <p className={`${Astyles.para}`}>{t('part9')}</p>
+    <div className="col-md-6 mb-2">
+    <h3  className={`${lng === 'en' ? Astyles.head1 : Astyles.head1Ar}`}>{t('part8')}</h3>
+      <p className={`${Astyles.para} pt-3`}>{t('part9')}</p>
     </div>
-    <div className="col-md-6">
-    <h3 className={`${Astyles.head1}`}>{t('part10')}</h3>
-      <p className={`${Astyles.para}`}>{t('part11')}</p>
+    <div className="col-md-6 mb-5">
+    <h3  className={`${lng === 'en' ? Astyles.head1 : Astyles.head1Ar}`}>{t('part10')}</h3>
+      <p className={`${Astyles.para} pt-3`}>{t('part11')}</p>
     </div>
-    <div className="col-md-6">
-    <h3 className={`${Astyles.head1}`}>{t('part12')}</h3>
-      <p className={`${Astyles.para}`}>{t('part13')}</p>
+    <div className="col-md-6 mb-5">
+    <h3 className={`${lng === 'en' ? Astyles.head1 : Astyles.head1Ar}`}>{t('part12')}</h3>
+      <p className={`${Astyles.para} pt-3`}>{t('part13')}</p>
     </div>
-    <div className="col-md-6">
-    <h3 className={`${Astyles.head1}`}>{t('part14')}</h3>
-      <p className={`${Astyles.para}`}>{t('part15')}</p>
+    <div className="col-md-6 mb-5">
+    <h3 className={`${lng === 'en' ? Astyles.head1 : Astyles.head1Ar}`}>{t('part14')}</h3>
+      <p className={`${Astyles.para} pt-3`}>{t('part15')}</p>
     </div>
   </div>
   
