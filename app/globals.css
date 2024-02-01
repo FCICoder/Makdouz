@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
 #scroll-top {
     display: none;
     opacity: 0 ;
@@ -34,5 +43,75 @@
     border-radius: 50%;
  }
 
+ ::selection {
+    background-color: rgb(201, 226, 101);
+ }
 
+section {
+    margin-top: 3rem;
+}
  
+#partOne-left  strong {
+    font-family: 'Rubik', sans-serif;
+    color:#2D2D2D;
+    font-size: 23px;
+    line-height:32.2px;
+    
+}
+
+#partOne-left  ul > li {
+    font-family: 'Rubik', sans-serif;
+    color:#37373D;
+    font-size: 15px;
+    line-height:27px;
+}
+
+#partOne-right {
+    background-image: url('/public/home1.svg') !important;
+}
+
+#partTwo-right{
+    margin-top: 1.5rem;
+}
+
+#partTwo-right  h3 {
+    font-family: 'Rubik', sans-serif;
+    color:#2D2D2D;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 18px !important;
+    line-height:25.2px;
+    font-weight: 500;
+}
+
+#partTwo-right  p {
+    font-family: 'Rubik', sans-serif;
+    color:#37373D;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 15px !important;
+    line-height:27px;
+    font-weight: 400;
+}
+
+#partTwo-right  h2 {
+    font-family: 'Rubik', sans-serif;
+    color:#2D2D2D;
+    font-size: 20px !important;
+    line-height:20px;
+    font-weight: 500;
+}
+
+#partTwo-right ul span {
+    font-family: 'Rubik', sans-serif;
+    color:#37373D;
+    font-size: 15px;
+    line-height:27px;
+    font-weight: 400;
+    margin-top: 8px !important;
+}
+#partTwo-right ul i {
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
