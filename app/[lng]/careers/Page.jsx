@@ -2,8 +2,9 @@ import { useTranslation } from "@/app/i18n";
 import React from "react";
 import Cstyles from "./career.module.css";
 
-export default async function Page({ lng }) {
+export default async function Page({params:{lng}}) {
   const { t } = await useTranslation(lng, "careers");
+
   return (
     <>
       <div className="py-2"  style={{backgroundColor:' rgb(141, 248, 182)'}}>
