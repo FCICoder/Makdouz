@@ -143,11 +143,11 @@ export const Navbar = ({ lng }) => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      className={`${router == `/${lng}/Contactus` ? `${styles.active}` : ""
+                      className={`${router == `/${lng}/quote-request` ? `${styles.active}` : ""
                         } ${styles.nav_link}`}
-                      href={`/${lng}/Contactus`}
+                      href={`/${lng}/quote-request`}
                     >
-                      {lng == "en" ? "Contactus" : "تواصل معنا"}
+                      {lng == "en" ? "quote request" : "تواصل معنا"}
                     </Link>
                   </li>{" "}
                 <div className="ms-md-2 mx-0">

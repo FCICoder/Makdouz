@@ -2,14 +2,17 @@ import { useTranslation } from "@/app/i18n";
 import React from "react";
 import Cstyles from "./career.module.css";
 
-export default async function Page({params:{lng}}) {
+export default async function Page({ params: { lng } }) {
   const { t } = await useTranslation(lng, "careers");
 
   return (
     <>
-      <div className="py-2"  style={{backgroundColor:' rgb(141, 248, 182)'}}>
+      <div
+        className={`py-2 ${Cstyles.contain1} `}
+   
+      >
         <p className={`${Cstyles.head1} text-center fw-bold`}>{t("part0")}</p>
-        <div className={`${Cstyles.fadeIn} mx-5 text-center`} >
+        <div className={`${Cstyles.fadeIn}  text-center w-50 m-auto mt-5`}>
           <p>{t("part0.1")}</p>
         </div>
       </div>
