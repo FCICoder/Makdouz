@@ -64,14 +64,14 @@ export default function Page({ params: { lng } }) {
     };
   
     return <>
-    <div className="container" id="quoter">
-      <h3>Quote Request Form</h3>
-      <p>Fields marked with an <span className="ms-1 me-1 text-danger mt-4 ">*</span> are required</p>
+    <div className="container mt-5" id="quoter">
+      <h3>{lng=='en'?'Quote Request Form':' نموذج طلب  كمية'}</h3>
+      <p>{lng=='en'?'Fields marked with an':'الحقول المحددة ب'} <span className="ms-1 me-1 text-danger mt-4 ">*</span> {lng=='en'?'are required':'مطلوبة'}</p>
     </div>
     <div className="container-quote">
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
-            <label htmlFor="name" className="form-label">Name <span className="ms-1 me-1 text-danger">*</span></label>
+            <label htmlFor="name" className="form-label">{lng=='en'?'Name':'الاسم'} <span className="ms-1 me-1 text-danger">*</span></label>
             <input
               type="text"
               name="name"
@@ -83,7 +83,7 @@ export default function Page({ params: { lng } }) {
           </div>
     
           <div className="mb-3">
-            <label htmlFor="company" className="form-label">Company <span className="ms-1 me-1 text-danger">*</span></label>
+            <label htmlFor="company" className="form-label">{lng=='en'?'Company':'الشركة'} <span className="ms-1 me-1 text-danger">*</span></label>
             <input
               type="text"
               name="company"
@@ -95,8 +95,8 @@ export default function Page({ params: { lng } }) {
           </div>
     
           <div className="d-flex w-100 " >
-          <div className="mb-3 w-50 " style={{paddingRight:"5%"}}>
-            <label htmlFor="email" className="form-label ">Email</label>
+          <div className="mb-3 w-50 " style={lng=='en'?{paddingRight:"5%"}:{paddingLeft:"5%"}}>
+            <label htmlFor="email" className="form-label ">{lng=='en'?'Email':'البريد الالكترونى'}</label>
             <input
               type="email"
               name="email"
@@ -109,7 +109,7 @@ export default function Page({ params: { lng } }) {
           </div>
     
           <div className="mb-3 w-50">
-            <label htmlFor="phone" className="form-label">Phone <span className="ms-1 me-1 text-danger">*</span></label>
+            <label htmlFor="phone" className="form-label">{lng=='en'?'Phone':'رقم الهاتف'} <span className="ms-1 me-1 text-danger">*</span></label>
             <input
               type="tel"
               name="phone"
@@ -123,7 +123,7 @@ export default function Page({ params: { lng } }) {
           </div>
     
           <div className="mb-3">
-            <label htmlFor="country" className="form-label">Country <span className="ms-1 me-1 text-danger">*</span></label>
+            <label htmlFor="country" className="form-label">{lng=='en'?'Country':'البلد'} <span className="ms-1 me-1 text-danger">*</span></label>
             <input
               type="text"
               name="country"
@@ -135,7 +135,7 @@ export default function Page({ params: { lng } }) {
           </div>
     
           <div className="mb-3">
-            <label htmlFor="message" className="form-label">Message <span className="ms-1 me-1 text-danger">*</span></label>
+            <label htmlFor="message" className="form-label">{lng=='en'?'Products That You are Interested *':'منتجات تهمك'} <span className="ms-1 me-1 text-danger">*</span></label>
             <textarea
               name="message"
               value={formData.message}
@@ -145,7 +145,7 @@ export default function Page({ params: { lng } }) {
             ></textarea>
           </div>
     
-          <button type="submit" className="btn btn-dark rounded-0  text-uppercase">Submit </button>
+          <button type="submit" className="btn btn-dark rounded-0  text-uppercase">{lng=='en'?'Submit':'ارسال'} </button>
         </form>
         </div>
         </>
