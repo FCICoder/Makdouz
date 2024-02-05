@@ -7,8 +7,7 @@ export default async function Page({ params: { lng } }) {
 
   return (
     <>
-      <div
-        className={`py-2 ${Cstyles.contain1} d-flex align-items-center  `}>
+      <div className={`py-2 ${Cstyles.contain1} d-flex align-items-center  `}>
       <div id="content-carrer" >
       <h1 className={`${Cstyles.head1} text-center fw-bold`}>{t("part0")}</h1>
         <div className={`${Cstyles.fadeIn}  text-center m-auto `} style={{width:"59%"}}>
@@ -17,10 +16,7 @@ export default async function Page({ params: { lng } }) {
       </div>
         
       </div>
-      <div
-        className={`${Cstyles.custom}`}
-        style={{ display: "flex", flexDirection: "column" }}
-      >
+      <div  className={`${Cstyles.custom}`} style={{ display: "flex", flexDirection: "column" }}>
         <div className={`${Cstyles.container}`}>
           <h2 className={``}>{t("part1")}</h2>
         </div>

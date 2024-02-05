@@ -1,13 +1,17 @@
 "use client";
 import React from "react";
 import styles from "./navbar.module.css";
-import Image from "next/image";
-import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { languages } from "../../../i18n/settings";
 if (typeof document !== 'undefined') {
   import('bootstrap/dist/js/bootstrap.bundle.js')
 }
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Nav_bar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import img from '../../../../public/cropped-3-1.png'
+import Image from "next/image";
 export const Navbar = ({ lng }) => {
   const router = usePathname();
   // function select(e) {
@@ -17,7 +21,7 @@ export const Navbar = ({ lng }) => {
   // }
   return (
     <>
-      <section>
+      {/* <section>
         <nav className={`navbar navbar-expand-md navbar-light shadow ${styles.nav}`}>
           <div className="container">
             <div className={`${styles.image}`}>
@@ -36,9 +40,9 @@ export const Navbar = ({ lng }) => {
                     </span>
                   );
                 })}
-            </div>
+            </div> */}
 
-            <button
+            {/* <button
               className="navbar-toggler d-lg-none"
               type="button"
               data-bs-toggle="collapse"
@@ -48,9 +52,9 @@ export const Navbar = ({ lng }) => {
               aria-label="Toggle navigation"
             >
               <span className="navbar-toggler-icon"></span>
-            </button>
+            </button> */}
 
-            <div className="   collapse navbar-collapse" id="collapsibleNavId">
+            {/* <div className="   collapse navbar-collapse" id="collapsibleNavId">
               <div className=" w-100 d-flex justify-content-center">
                 <ul className={` navbar-nav  mt-2 mt-lg-0 translate-50`}>
                   <li className="nav-item">
@@ -60,7 +64,6 @@ export const Navbar = ({ lng }) => {
                       href={`/${lng}`}
                     >
                       {lng == "en" ? "Home" : "الصفحة الرئيسيه"}
-                      {/* {t('navbar.part1')} */}
                     </Link>
                   </li>
                   <li className="nav-item dropdown" >
@@ -174,8 +177,8 @@ export const Navbar = ({ lng }) => {
                 </ul>
 
               </div>
-            </div>
-            <div className={`${styles.language} d-none d-md-block `}>
+            </div> */}
+            {/* <div className={`${styles.language} d-none d-md-block `}>
               {languages
                 .filter((l) => lng !== l)
                 .map((l, index) => {
@@ -186,13 +189,33 @@ export const Navbar = ({ lng }) => {
                     </span>
                   );
                 })}
-            </div>
-          </div>
+            </div> */}
+          {/* </div>
         </nav>
+        </section> */}
+        
+        <Nav_bar expand="lg" id="Nav_bar" className="bg-body-tertiary">
+      <Container>
+        <Nav_bar.Brand href="/" id="brand" className="text-uppercase  p-3 " >
+          <Image src={img} alt="Makdouz Brand" width={300} height={50} id="image-brand"  />
+        </Nav_bar.Brand>
+        <Nav_bar.Toggle  id="toggle-button" aria-controls="basic-navbar-nav" />
+        <Nav_bar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto" >
+            <Nav.Link className="Nav" href="/">Home</Nav.Link>
+            <Nav.Link className="Nav" href="#">Products</Nav.Link>
+            <Nav.Link className="Nav" href="quote-request">QuoteRequest</Nav.Link>
+            <Nav.Link className="Nav" href="careers">Careers</Nav.Link>
+            <Nav.Link className="Nav" href="about-us">Aboutus</Nav.Link>
+            <Nav.Link className="Nav" href="https://www.facebook.com/makdouz">
+            <i class="fab fa-facebook fs-3"></i>
+            </Nav.Link>
 
-
-      </section>
-
+          </Nav>
+        </Nav_bar.Collapse>
+        
+      </Container>
+    </Nav_bar>
     </>
   );
 };
