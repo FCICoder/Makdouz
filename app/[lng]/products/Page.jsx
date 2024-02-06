@@ -69,9 +69,8 @@ export default function Page({ params: { lng } }) {
         activeIcon === 'list' ?
           <div className='mt-4 ps-3'>
             <div className='row g-5 d-flex flex-column '>
-              {products.products?.map((prd, index) => (<>
-                <div className='row '>
-                  <div className="col-md-4 " key={index}>
+              {products.products?.map((prd, index) => <div className='row ' key={index} >
+                  <div className="col-md-4 " >
                     <div className=' '>
                       {(lng === 'en') ? (
                         <div className=' text-center   ' id="connnte" >
@@ -150,9 +149,7 @@ export default function Page({ params: { lng } }) {
                     </p>
                   </div>
                 </div>
-
-              </>
-              ))}
+              )}
             </div>
           </div>
           :
