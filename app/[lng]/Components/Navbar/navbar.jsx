@@ -207,8 +207,8 @@ export const Navbar = ({ lng }) => {
             <Nav.Link className="Nav" href="quote-request">QuoteRequest</Nav.Link>
             <Nav.Link className="Nav" href="careers">Careers</Nav.Link>
             <Nav.Link className="Nav" href="about-us">Aboutus</Nav.Link>
-            <Nav.Link className="Nav "  href="https://www.facebook.com/makdouz">
-            <i className="fab fa-facebook fs-3 mt-4"></i>
+            <Nav.Link className="Nav  "  href="https://www.facebook.com/makdouz">
+            <i className="fab fa-facebook py-1 fs-3 mt-3"></i>
             </Nav.Link>
 
           </Nav>
