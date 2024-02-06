@@ -197,18 +197,18 @@ export const Navbar = ({ lng }) => {
         <Nav_bar expand="lg" id="Nav_bar" className="bg-body-tertiary">
       <Container>
         <Nav_bar.Brand href="/" id="brand" className="text-uppercase  p-3 " >
-          <Image src={img} alt="Makdouz Brand" width={300} height={50} id="image-brand"  />
+          <Image src={img} alt="Makdouz Brand" width={300} height={50} id="image-brand" style={{width:"auto",height:"auto"}}  />
         </Nav_bar.Brand>
         <Nav_bar.Toggle  id="toggle-button" aria-controls="basic-navbar-nav" />
         <Nav_bar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto" >
             <Nav.Link className="Nav" href="/">Home</Nav.Link>
-            <Nav.Link className="Nav" href="#">Products</Nav.Link>
+            <Nav.Link className="Nav" href="products">Products</Nav.Link>
             <Nav.Link className="Nav" href="quote-request">QuoteRequest</Nav.Link>
             <Nav.Link className="Nav" href="careers">Careers</Nav.Link>
             <Nav.Link className="Nav" href="about-us">Aboutus</Nav.Link>
-            <Nav.Link className="Nav" href="https://www.facebook.com/makdouz">
-            <i class="fab fa-facebook fs-3"></i>
+            <Nav.Link className="Nav "  href="https://www.facebook.com/makdouz">
+            <i className="fab fa-facebook fs-3 mt-4"></i>
             </Nav.Link>
 
           </Nav>

@@ -54,6 +54,7 @@ export default async function Content({ lng }) {
                 height={1000}
                 className=" h-100 w-100 "
                 alt="pickles olives"
+                priority="true"
               />
             </div>
           </div>

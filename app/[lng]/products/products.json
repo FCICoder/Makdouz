@@ -1,0 +1,179 @@
+{
+    "products":
+    [
+        {
+            "id":1,
+            "en":{
+                "name":"Azzizi Olives",
+                "description": "Azzizi Olives Vibrant green olives with a refreshing tang. Adds zest to various dishes.",
+                "img1":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167901/pic1_z2tck6.webp",
+                "img2":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167911/pic2_kxyjc1.webp",
+                "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167901/pic1_z2tck6.webp",
+                        "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167911/pic2_kxyjc1.webp"]
+            },
+            "ar":{
+                "name":"زيتون العزيزي",
+                "description": "زيتون عزيزي زيتون أخضر نابض بالحياة مع نكهة منعشة. يضيف نكهة إلى الأطباق المتنوعة.",
+                "img1":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167901/pic1_z2tck6.webp",
+                "img2":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167911/pic2_kxyjc1.webp",
+                "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167901/pic1_z2tck6.webp",
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167911/pic2_kxyjc1.webp"]
+            }
+        },
+        {
+            "id":2,
+            "en":{
+                "name":"Dolce Olives",
+                "description" : "Dolce Olives Tender olives with a mild and sweet taste. Enhances various dishes.",
+                "img1": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167920/pic3_rmwexp.webp",
+                "img2": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167929/pic4_mdm50h.webp",
+                "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167920/pic3_rmwexp.webp",
+                 "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167929/pic4_mdm50h.webp"]
+                 
+            },
+            "ar":{
+                "name": "دولتشي الزيتون",
+                "description": "زيتون دولتشي زيتون طري ذو طعم خفيف وحلو. يعزز الأطباق المختلفة.",
+                "img1": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167920/pic3_rmwexp.webp",
+                "img2": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167929/pic4_mdm50h.webp",
+                "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167920/pic3_rmwexp.webp",
+                 "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167929/pic4_mdm50h.webp"]
+            }
+        },
+        {
+            "id":3,
+            "en":{
+                "name":"Kalamata Olives",
+                "description" : "Kalamata Olives are Large and meaty olives with intense fruity flavor and a dark purple to black color. Enhances Mediterranean dishes.",
+                "img1":"http://res.cloudinary.com/dfacoxwmq/image/upload/v1707167946/pic5_my6ain.webp",
+                "img2":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167975/pic6_ayw7re.webp",
+                "images":["http://res.cloudinary.com/dfacoxwmq/image/upload/v1707167946/pic5_my6ain.webp",
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167975/pic6_ayw7re.webp"]
+            },
+            "ar":{
+                "name": "زيتون كالاماتا",
+                "description":"زيتون كالاماتا هو زيتون كبير ولحمي ذو نكهة فاكهية مكثفة ولون أرجواني غامق إلى أسود. يعزز أطباق البحر الأبيض المتوسط.",
+                "img1":"http://res.cloudinary.com/dfacoxwmq/image/upload/v1707167946/pic5_my6ain.webp",
+                "img2":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167975/pic6_ayw7re.webp",
+                "images":["http://res.cloudinary.com/dfacoxwmq/image/upload/v1707167946/pic5_my6ain.webp",
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167975/pic6_ayw7re.webp"]
+            }
+        },
+        {
+            "id":4,
+            "en":{
+                "name":"Manzanilla Olives",
+                "description" : "Manzanilla Olives are Firm and tangy green olives with a slightly bitter taste and fruity notes. Ideal for pickling.",
+                "img1":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168047/pic7_c6ckhw.webp",
+                "img2":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168423/pic8_oqofe6.webp",
+                "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168047/pic7_c6ckhw.webp",
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168423/pic8_oqofe6.webp"]
+            },
+            "ar":{
+                "name": "زيتون مانزانيلا",
+                "description":"زيتون المانزانيلا هو زيتون أخضر متين ومنعش ذو طعم مرير قليلاً ونكهة فاكهية. مثالي للتخليل.",
+                "img1":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168047/pic7_c6ckhw.webp",
+                "img2":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168423/pic8_oqofe6.webp",
+                "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168047/pic7_c6ckhw.webp",
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168423/pic8_oqofe6.webp"]
+            }
+        },
+        {
+            "id":5,
+            "en":{
+                "name":"Mexican Peppers",
+                "description" : "Mexican Peppers are Zesty and flavorful pickled peppers with a spicy kick. Perfect for adding an authentic Mexican twist to your dishes.",
+                "img1":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168439/pic9_kcdy2d.webp",
+                "img2":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168454/pic10_x1q5uh.webp",
+                "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168439/pic9_kcdy2d.webp",
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168454/pic10_x1q5uh.webp"]
+            },
+            "ar":{
+                "name": "الفلفل المكسيكي",
+                "description":"الفلفل المكسيكي هو فلفل مخلل حار ولذيذ مع لمسة حارة. مثالي لإضافة لمسة مكسيكية أصيلة إلى أطباقك.",
+                "img1":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168439/pic9_kcdy2d.webp",
+                "img2":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168454/pic10_x1q5uh.webp",
+                "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168439/pic9_kcdy2d.webp",
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168454/pic10_x1q5uh.webp"]
+            }
+        },
+        {
+            "id":6,
+            "en":{
+                "name":"Natural Picual Olives",
+                "description" : "Natural Picual Olives are Medium-sized olives from Spain with a balanced fruity and slightly peppery flavor. Versatile for different dishes.",
+                "img1": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp" ,
+                "img2" : "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp",
+                "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp" ,
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp"]
+            },
+            "ar":{
+                "name": "زيتون بيكوال طبيعي",
+                "description":"زيتون بيكوال الطبيعي هو زيتون متوسط الحجم من إسبانيا ذو نكهة فاكهية متوازنة ونكهة فلفل قليلاً. متعدد الاستخدامات لأطباق مختلفة.",
+                "img1": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp" ,
+                "img2" : "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp",
+                "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp" ,
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp"]
+            
+            }
+        },
+        {
+            "id":7,
+            "en":{
+                "name":"Pitted Olives",
+                "description" : "Pitted Olives are Convenient and pit-free olives available in various sizes. Perfect for snacking, salads, and culinary creations. Enjoy the delicious flavors of Manzanilla, Kalamata, Natural Picual, Dolce, and Azzizi varieties.",
+                "img1": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168479/pic13_gzkxiv.webp",
+                "img2" : "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168495/pic14_siwehp.webp",
+                "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168479/pic13_gzkxiv.webp",
+                         "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168495/pic14_siwehp.webp"]
+            },
+            "ar":{
+                "name": "زيتون منزوع النوى",
+                "description":"الزيتون منزوع النواة هو زيتون مريح وخالي من النوى متوفر بأحجام مختلفة. مثالي للوجبات الخفيفة والسلطات وإبداعات الطهي. استمتع بالنكهات اللذيذة من أصناف مانزانيلا، كالاماتا، بيكوال الطبيعية، دولتشي، وأزيزي.",
+                "img1": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168479/pic13_gzkxiv.webp",
+                "img2" : "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168495/pic14_siwehp.webp",
+                "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168479/pic13_gzkxiv.webp",
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168495/pic14_siwehp.webp"]
+            }
+        },
+        {
+            "id":8,
+            "en":{
+                "name":"Red Peppers",
+                "description" : "Sweet and tangy pickled red peppers to enhance salads, sandwiches, and antipasti platters. Adds a vibrant pop of color and flavor to your favorite dishes.",
+                "img1": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168504/pic15_ggdk7n.webp",
+                "img2" :"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168515/pic16_gdsz9m.webp",
+                "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168504/pic15_ggdk7n.webp",
+                        "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168515/pic16_gdsz9m.webp"]
+            },
+            "ar":{
+                "name": "الفلفل الأحمر",
+                "description":"فلفل أحمر مخلل حلو ومنعش لتعزيز السلطات والسندويشات وأطباق المقبلات. يضيف لمسة حيوية من الألوان والنكهة إلى أطباقك المفضلة.",
+                "img1": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168504/pic15_ggdk7n.webp",
+                "img2" :"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168515/pic16_gdsz9m.webp",
+                "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168504/pic15_ggdk7n.webp",
+                        "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168515/pic16_gdsz9m.webp"]
+            }
+        },
+        {
+            "id":9,
+            "en":{
+                "name":"Sliced Olives",
+                "description" : "Thinly sliced olives for easy garnishing and quick incorporation into various dishes. Enjoy the authentic flavors of Manzanilla, Kalamata, Natural Picual, Dolce, and Azzizi varieties.",
+                "img1":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168527/pic17_nnzzxe.webp",
+                "img2" :"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168540/pic18_woh8d8.webp",
+                "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168527/pic17_nnzzxe.webp",
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168540/pic18_woh8d8.webp"]
+            },
+            "ar":{
+                "name": "شرائح الزيتون",
+                "description":"زيتون مقطع إلى شرائح رفيعة لسهولة التزيين ودمجه سريعًا في أطباق متنوعة. استمتع بالنكهات الأصيلة لأصناف مانزانيلا، كالاماتا، ناتشورال بيكوال، دولتشي، وعزيزي.",
+                "img1":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168527/pic17_nnzzxe.webp",
+                "img2" :"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168540/pic18_woh8d8.webp",
+                "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168527/pic17_nnzzxe.webp",
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168540/pic18_woh8d8.webp"]
+            }
+        }
+        
+    ]
+}
