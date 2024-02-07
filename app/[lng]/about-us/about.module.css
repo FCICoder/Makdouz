@@ -1,0 +1,56 @@
+ 
+  .head1 {
+    position: relative;
+      font-size: 24px;
+    color: #333;
+    padding-bottom: 8px;
+    /* text-decoration: underline; */
+    
+    /* text-underline-offset: 10px; */
+  }
+  .head1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0px;
+    width: 7%;
+    height: 3px;
+    background-color: rgb(9, 12, 14);
+    z-index: -1;
+  }
+  .head1Ar {
+    position: relative;
+      font-size: 24px;
+    color: #333;
+    }
+  .head1Ar::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -7px;
+    width: 9%;
+    height: 3px;
+    background-color: rgb(9, 12, 14);
+    z-index: -1;
+  }
+  .para {
+    font-size: 16px;
+    line-height: 27px;
+    color:  #37373D;
+  }
+  
+  @media only screen and (max-width: 600px) {
+
+    .head1 {
+      font-size: 20px;
+    }
+    
+    .para {
+      font-size: 14px;
+    }
+  }
+  /* .custom ::selection {
+    color: #fff;
+    background: #333;
+    text-shadow: none;
+  } */
