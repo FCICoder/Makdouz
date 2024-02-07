@@ -5,7 +5,7 @@ import Astyles from './about.module.css'
 import olives from '@/public/assets/assorted-olives.jpg'
 import { useTranslation } from "@/app/i18n";
 
-export default async function page({params:{lng}}) {
+export default async function Page({params:{lng}}) {
   const { t } = await useTranslation(lng, "about-us");
 
   return <>

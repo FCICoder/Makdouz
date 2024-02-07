@@ -4,7 +4,7 @@ import products from "../products/products.json";
 import Images from "./Images";
 import Link from "next/link";
 
-const page = ({ params: { lng } }) => {
+const Page = ({ params: { lng } }) => {
     const [product, setProduct] = useState([]);
     const [prdId, setPrdId] = useState(0);
 

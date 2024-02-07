@@ -4,7 +4,7 @@ import products from './products.json';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function page({ params: { lng } }) {
+export default function Page({ params: { lng } }) {
   const [hoveredImages, setHoveredImages] = useState(new Array(products.products.length).fill(false));
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
