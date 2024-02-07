@@ -78,18 +78,20 @@ section {
 #partTwo-right  h3 {
     font-family: 'Rubik', sans-serif;
     color:#2D2D2D;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    /* margin-left: 5rem; */
+    /* margin-right: 1.5rem; */
     font-size: 18px !important;
     line-height:25.2px;
     font-weight: 500;
 }
 
+
+
 #partTwo-right  p {
     font-family: 'Rubik', sans-serif;
     color:#37373D;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    /* margin-left: 5rem; */
+    /* margin-right: 1.5rem; */
     font-size: 15px !important;
     line-height:27px;
     font-weight: 400;
@@ -228,6 +230,19 @@ section {
     opacity: .6 !important;
 }
 
+@media (max-width: 768px) {
+    #toggle-button{
+        font-size: 12px;
+    }
+    #brand{
+        width:25% ;
+    }
+    #image-brand{
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+
 @media (max-width: 499px) {
     #brand  {
         width: 52%;
@@ -242,11 +257,32 @@ section {
         height: 40%;
     }
 }
+@media (max-width: 360px) {
+    #brand  {
+        width: 35%;
+    }
+    #toggle-button {
+        
+        font-size: 18px!important;
+    }
+
+    #image-brand {
+        width: 100% !important;
+        height: 40%;
+    }
+}
 
 @media (max-width: 300px){
     #toggle-button {
-        
-        font-size: 14px!important;
+        font-size: 10px!important;
+    }
+
+    #brand  {
+        width: 34%;
+    }
+
+    #language {
+        font-size: 12px !important;
     }
 
     .Nav {
@@ -258,12 +294,10 @@ section {
 
 @media (max-width: 182px){
     #toggle-button {
-        
         font-size: 6px!important;
     }
     .Nav {
         font-size: 12px !important;
-        /* font-weight: 900 !important; */
     }
 }
 
@@ -271,8 +305,8 @@ section {
     color: rgb(9, 85, 22) !important;
     font-family: 'Rubik', sans-serif;
     transition: all .4s ;
-    font-size: 15px;
-    line-height: 80px;
+    font-size: 13px !important;
+    line-height: 95px;
     letter-spacing: 1px;
     font-weight: 700 !important;
     padding-right : 20px !important;
@@ -313,6 +347,7 @@ section {
     color: white;
     font-size: 18px;
     opacity: 0;
+    cursor: pointer;
 }
 
 #content-prds {
@@ -479,3 +514,16 @@ section {
     color: white !important;
     border-radius: 50%;
 } 
+
+#language  {
+    font-family: "Rubik",sans-serif;
+    color: #2d6129 !important;
+    font-size: 18px ;
+    font-weight: 500;
+    /* padding-top: 20px; */
+}
+
+#language:hover {
+    color: #C9E265 !important;
+    
+}

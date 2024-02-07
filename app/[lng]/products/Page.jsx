@@ -52,16 +52,16 @@ export default function Page({ params: { lng } }) {
       </p>
       <div id='grid_system'>
         <i
-          className={`fas fa-th ${activeIcon === 'grid' ? 'active' : ''}`}
+          className={`fas fa-th pointer ${activeIcon === 'grid' ? 'active' : ''}`}
           aria-hidden='true'
-          role='img'
+          role='button'
           onClick={() => handleIconClick('grid')}
         ></i>
 
         <i
           className={`fas fa-list ${activeIcon === 'list' ? 'active' : ''}`}
           aria-hidden='true'
-          role='img'
+          role='button'
           onClick={() => handleIconClick('list')}
         ></i>
       </div>
@@ -94,6 +94,7 @@ export default function Page({ params: { lng } }) {
                               />
 
                             </div>
+                            </Link>
                             <div id='icon' className='m-0'>
                               <span className=' d-flex justify-content-center text-uppercase' onClick={() => handleImageClick(prd)}>
                                 <i className="far fa-eye mx-3" aria-hidden="true" role="img"></i>
@@ -102,7 +103,7 @@ export default function Page({ params: { lng } }) {
                                 </p>
                               </span>
                             </div>
-                          </Link>
+                          
 
                         </div>
                       ) : (
@@ -126,6 +127,8 @@ export default function Page({ params: { lng } }) {
                                 alt='منتجات مكدوز'
                               />
                             </div>
+                          </Link>
+
                             <div id='icon' className='m-0'>
                               <span className=' d-flex justify-content-center text-uppercase' onClick={() => handleImageClick(prd)}>
                                 <i className="far fa-eye mx-3" aria-hidden="true" role="img"></i>
@@ -134,7 +137,6 @@ export default function Page({ params: { lng } }) {
                                 </p>
                               </span>
                             </div>
-                          </Link>
 
                         </div>
                       )}
@@ -189,6 +191,8 @@ export default function Page({ params: { lng } }) {
                               alt='makdouz products'
                             />
                           </div>
+                        </Link>
+
                           <div id='icon' className='m-0'>
                             <span className=' d-flex justify-content-center text-uppercase' onClick={() => handleImageClick(prd)}>
                               <i className="far fa-eye mx-3" aria-hidden="true" role="img"></i>
@@ -197,7 +201,6 @@ export default function Page({ params: { lng } }) {
                               </p>
                             </span>
                           </div>
-                        </Link>
                         <div>
                           <span id='prd_Link'>
                             {prd.en.name}
@@ -225,6 +228,8 @@ export default function Page({ params: { lng } }) {
                               alt='منتجات مكدوز'
                             />
                           </div>
+                        </Link>
+
                           <div id='icon' className='m-0'>
                             <span className=' d-flex justify-content-center text-uppercase' onClick={() => handleImageClick(prd)}>
                               <i className="far fa-eye mx-3" aria-hidden="true" role="img"></i>
@@ -233,7 +238,6 @@ export default function Page({ params: { lng } }) {
                               </p>
                             </span>
                           </div>
-                        </Link>
                         <div>
                           <span id='prd_Link'>
                             {prd.ar.name}

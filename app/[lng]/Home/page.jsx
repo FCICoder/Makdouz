@@ -67,8 +67,8 @@ export default async function Content({ lng }) {
             <Swiper2 />
           </div>
           <div className="col-md-6" id="partTwo-right">
-            <div className="d-flex ">
-              <div>
+            <div className="row w-100 ">
+              <div className="col-sm-3">
                 <Image
                   src={img5}
                   alt="Iso certification Logo"
@@ -76,7 +76,7 @@ export default async function Content({ lng }) {
                   height={100}
                 />
               </div>
-              <div>
+              <div id="connnntent" className="col-sm-9" >
                 {
                   (lng== 'en')?
                   <h3>ISO 22000 Certified</h3>:
@@ -105,7 +105,7 @@ export default async function Content({ lng }) {
             <div className="mt-3">
               {
                 (lng == 'en')?
-              <h2>Nurtured by nature, our farms yield pristine harvests!</h2>
+              <h2 className="p-1">Nurtured by nature, our farms yield pristine harvests!</h2>
                 :
                 <h2>مزارعنا التي تغذيها الطبيعة تنتج محاصيل نقية!</h2>
               }
