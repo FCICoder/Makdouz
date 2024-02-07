@@ -9,7 +9,8 @@
                 "img1":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167901/pic1_z2tck6.webp",
                 "img2":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167911/pic2_kxyjc1.webp",
                 "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167901/pic1_z2tck6.webp",
-                        "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167911/pic2_kxyjc1.webp"]
+                        "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167911/pic2_kxyjc1.webp"],
+                "descriptionList": " <li>Azzizi olives, also known as Azizi olives, are vibrant green olives with a refreshing tang. They are great for adding zest to salads, sandwiches, and antipasti platters.</li><li>Available in sizes ranging from 80 to 360 per KG. Can be customized as pitted and stuffed olives.</li> <li>Packed in 160 kg drums or as per customer request.</li>"
             },
             "ar":{
                 "name":"زيتون العزيزي",
@@ -17,7 +18,8 @@
                 "img1":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167901/pic1_z2tck6.webp",
                 "img2":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167911/pic2_kxyjc1.webp",
                 "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167901/pic1_z2tck6.webp",
-                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167911/pic2_kxyjc1.webp"]
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167911/pic2_kxyjc1.webp"],
+                "descriptionList": " <li>زيتون عزيزي، المعروف أيضًا باسم زيتون عزيزي، هو زيتون أخضر نابض بالحياة ذو نكهة منعشة. إنه رائع لإضافة النكهة إلى السلطات، والسندويشات، وأطباق المقبلات.</li><li>متوفر بمقاسات تتراوح من 80 إلى 360 للكيلو. يمكن تخصيصه كزيتون منزوع النوى أو محشو.</li> <li>معبأ في براميل سعة 160 كجم أو حسب طلب العميل.</li>"
             }
         },
         {
@@ -28,7 +30,8 @@
                 "img1": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167920/pic3_rmwexp.webp",
                 "img2": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167929/pic4_mdm50h.webp",
                 "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167920/pic3_rmwexp.webp",
-                 "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167929/pic4_mdm50h.webp"]
+                 "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167929/pic4_mdm50h.webp"],
+                 "descriptionList":  " <li>Dolce olives are tender olives known for their mild and sweet flavors. They provide a gentle and nuanced taste that complements a wide range of dishes.</li> <li>Available in different sizes. Can be customized as pitted and stuffed olives.</li> <li>Packed in 160 kg drums or as per customer request.</li> "
                  
             },
             "ar":{
@@ -37,7 +40,8 @@
                 "img1": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167920/pic3_rmwexp.webp",
                 "img2": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167929/pic4_mdm50h.webp",
                 "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167920/pic3_rmwexp.webp",
-                 "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167929/pic4_mdm50h.webp"]
+                 "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167929/pic4_mdm50h.webp"],
+                 "descriptionList":" <li>زيتون دولتشي هو زيتون طري معروف بنكهاته الخفيفة والحلوة. فهو يوفر مذاقًا لطيفًا ودقيقًا يكمل مجموعة واسعة من الأطباق.</li> <li>متوفر بأحجام مختلفة. ويمكن تخصيصه حسب النوى أو زيتون محشي.</li> <li>معبأ في براميل 160 كجم أو حسب طلب العميل.</li> "
             }
         },
         {
@@ -48,7 +52,8 @@
                 "img1":"http://res.cloudinary.com/dfacoxwmq/image/upload/v1707167946/pic5_my6ain.webp",
                 "img2":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167975/pic6_ayw7re.webp",
                 "images":["http://res.cloudinary.com/dfacoxwmq/image/upload/v1707167946/pic5_my6ain.webp",
-                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167975/pic6_ayw7re.webp"]
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167975/pic6_ayw7re.webp"],
+                "descriptionList": "<li>Pitted olives are a convenient option for those who prefer to enjoy olives without the hassle of pits. These olives have been carefully processed to remove the pits while preserving their natural flavors and textures. They are available in various sizes, ranging from 80 to 360 per KG, and come in a range of varieties such as Manzanilla, Kalamata, Natural Picual, Dolce, and Azzizi. Pitted olives offer the same delicious taste and versatility as their counterparts, making them perfect for snacking, salads, and a wide range of culinary creations.</li>"
             },
             "ar":{
                 "name": "زيتون كالاماتا",
@@ -56,7 +61,8 @@
                 "img1":"http://res.cloudinary.com/dfacoxwmq/image/upload/v1707167946/pic5_my6ain.webp",
                 "img2":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167975/pic6_ayw7re.webp",
                 "images":["http://res.cloudinary.com/dfacoxwmq/image/upload/v1707167946/pic5_my6ain.webp",
-                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167975/pic6_ayw7re.webp"]
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707167975/pic6_ayw7re.webp"],
+                "descriptionList" : "<li>يعد الزيتون منزوع النواة خيارًا مناسبًا لأولئك الذين يفضلون الاستمتاع بالزيتون دون متاعب النوى. تمت معالجة هذا الزيتون بعناية لإزالة النوى مع الحفاظ على نكهاته وقوامه الطبيعي. وهي متوفرة بأحجام مختلفة، تتراوح من يتراوح سعر الزيتون من 80 إلى 360 للكيلوغرام الواحد، ويأتي في مجموعة من الأصناف مثل مانزانيلا، كالاماتا، ناتشورال بيكوال، دولتشي، وأزيزي.يقدم الزيتون منزوع البذور نفس المذاق اللذيذ وتعدد الاستخدامات مثل نظيراته، مما يجعله مثاليًا للوجبات الخفيفة والسلطات والحلويات. مجموعة واسعة من إبداعات الطهي.</li>"
             }
         },
         {
@@ -67,7 +73,8 @@
                 "img1":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168047/pic7_c6ckhw.webp",
                 "img2":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168423/pic8_oqofe6.webp",
                 "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168047/pic7_c6ckhw.webp",
-                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168423/pic8_oqofe6.webp"]
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168423/pic8_oqofe6.webp"],
+                "descriptionList": "<li>Manzanilla olives are small to medium-sized olives known for their firm texture and vibrant green color. They offer a slightly bitter taste with fruity notes, making them a classic choice for pickling.</li>  <li>Available in sizes ranging from 80 to 360 per KG. Can be customized as pitted and stuffed olives</li> <li>Packed in 160 kg drums or as per customer request.</li>"
             },
             "ar":{
                 "name": "زيتون مانزانيلا",
@@ -75,7 +82,8 @@
                 "img1":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168047/pic7_c6ckhw.webp",
                 "img2":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168423/pic8_oqofe6.webp",
                 "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168047/pic7_c6ckhw.webp",
-                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168423/pic8_oqofe6.webp"]
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168423/pic8_oqofe6.webp"],
+                "descriptionList": "<li>زيتون المانزانيلا عبارة عن زيتون صغير إلى متوسط الحجم معروف بملمسه القوي ولونه الأخضر النابض بالحياة. وهو يتميز بمذاق مرير قليلاً مع نكهة الفواكه، مما يجعله خيارًا كلاسيكيًا للتخليل.</li> <li>متوفر في أحجام تتراوح من 80 إلى 360 للكيلو.يمكن تخصيصها كزيتون منزوع النوى أو محشو</li> <li>معبأ في براميل سعة 160 كجم أو حسب طلب العميل.</li>"
             }
         },
         {
@@ -86,7 +94,8 @@
                 "img1":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168439/pic9_kcdy2d.webp",
                 "img2":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168454/pic10_x1q5uh.webp",
                 "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168439/pic9_kcdy2d.webp",
-                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168454/pic10_x1q5uh.webp"]
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168454/pic10_x1q5uh.webp"],
+                "descriptionList": "<li>Our pickled Mexican peppers are a zesty and flavorful addition to your culinary creations. These peppers are carefully selected for their vibrant colors, crisp texture, and spicy kick. Marinated in a tangy brine, they offer a delightful balance of heat and acidity. Whether you’re adding a spicy twist to tacos, nachos, or salsas, or simply enjoying them as a zesty condiment, our pickled Mexican peppers are sure to elevate your dishes with their authentic Mexican flavors.</li>"
             },
             "ar":{
                 "name": "الفلفل المكسيكي",
@@ -94,7 +103,8 @@
                 "img1":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168439/pic9_kcdy2d.webp",
                 "img2":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168454/pic10_x1q5uh.webp",
                 "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168439/pic9_kcdy2d.webp",
-                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168454/pic10_x1q5uh.webp"]
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168454/pic10_x1q5uh.webp"],
+                "descriptionList": "<li>يعد الفلفل المكسيكي المخلل الخاص بنا إضافة لذيذة ولذيذة إلى إبداعاتك في الطهي. تم اختيار هذا الفلفل بعناية لألوانه النابضة بالحياة، وملمسه الهش، وطعمه الحار. وهو متبل في محلول ملحي منعش، ويوفر توازنًا مبهجًا بين الحرارة والنكهة. الحموضة. سواء كنت تضيف لمسة حارة إلى التاكو، أو الناتشوز، أو الصلصة، أو ببساطة تستمتع بها كتوابل لاذعة، فمن المؤكد أن الفلفل المكسيكي المخلل لدينا سيرفع أطباقك بنكهاتها المكسيكية الأصيلة.</li>"
             }
         },
         {
@@ -105,7 +115,8 @@
                 "img1": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp" ,
                 "img2" : "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp",
                 "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp" ,
-                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp"]
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp"],
+                "descriptionList": "<li>Natural Picual olives are medium-sized olives originating from Spain. They offer a balanced combination of fruity and slightly peppery notes, making them versatile for various culinary applications.</li> <li>Available in different sizes. Can be customized as pitted and stuffed olives.</li> <li>Packed in 160 kg drums or as per customer request.</li>"
             },
             "ar":{
                 "name": "زيتون بيكوال طبيعي",
@@ -113,7 +124,8 @@
                 "img1": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp" ,
                 "img2" : "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp",
                 "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp" ,
-                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp"]
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168469/pic11_jj2ns2.webp"],
+                "descriptionList": "<li>زيتون بيكوال الطبيعي هو زيتون متوسط الحجم مصدره إسبانيا. وهو يقدم مزيجًا متوازنًا من نكهة الفواكه والفلفل قليلاً، مما يجعله متعدد الاستخدامات لمختلف تطبيقات الطهي.</li> <li>متوفر بأحجام مختلفة. يمكن زراعته زيتون محشو ومخصص حسب الرغبة.</li> <li>معبأ في براميل 160 كجم أو حسب طلب العميل</li>"
             
             }
         },
@@ -125,7 +137,8 @@
                 "img1": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168479/pic13_gzkxiv.webp",
                 "img2" : "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168495/pic14_siwehp.webp",
                 "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168479/pic13_gzkxiv.webp",
-                         "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168495/pic14_siwehp.webp"]
+                         "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168495/pic14_siwehp.webp"],
+                "descriptionList": "<li>Pitted olives are a convenient option for those who prefer to enjoy olives without the hassle of pits. These olives have been carefully processed to remove the pits while preserving their natural flavors and textures. They are available in various sizes, ranging from 80 to 360 per KG, and come in a range of varieties such as Manzanilla, Kalamata, Natural Picual, Dolce, and Azzizi. Pitted olives offer the same delicious taste and versatility as their counterparts, making them perfect for snacking, salads, and a wide range of culinary creations.</li>"
             },
             "ar":{
                 "name": "زيتون منزوع النوى",
@@ -133,7 +146,8 @@
                 "img1": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168479/pic13_gzkxiv.webp",
                 "img2" : "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168495/pic14_siwehp.webp",
                 "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168479/pic13_gzkxiv.webp",
-                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168495/pic14_siwehp.webp"]
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168495/pic14_siwehp.webp"],
+                "descriptionList": "<li>يعد الزيتون منزوع النواة خيارًا مناسبًا لأولئك الذين يفضلون الاستمتاع بالزيتون دون متاعب النوى. تمت معالجة هذا الزيتون بعناية لإزالة النوى مع الحفاظ على نكهاته وقوامه الطبيعي. وهي متوفرة بأحجام مختلفة، تتراوح من يتراوح سعر الزيتون من 80 إلى 360 للكيلوغرام الواحد، ويأتي في مجموعة من الأصناف مثل مانزانيلا، كالاماتا، ناتشورال بيكوال، دولتشي، وأزيزي.يقدم الزيتون منزوع البذور نفس المذاق اللذيذ وتعدد الاستخدامات مثل نظيراته، مما يجعله مثاليًا للوجبات الخفيفة والسلطات والحلويات. مجموعة واسعة من إبداعات الطهي.</li>"
             }
         },
         {
@@ -144,7 +158,8 @@
                 "img1": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168504/pic15_ggdk7n.webp",
                 "img2" :"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168515/pic16_gdsz9m.webp",
                 "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168504/pic15_ggdk7n.webp",
-                        "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168515/pic16_gdsz9m.webp"]
+                        "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168515/pic16_gdsz9m.webp"],
+                "descriptionList" : "<li>Our pickled red peppers are a versatile and vibrant addition to your pantry. These peppers, known for their sweet and slightly tangy taste, are hand-picked at the peak of ripeness to ensure optimal flavor. They are then pickled in a delicate brine, enhancing their natural sweetness and adding a touch of acidity. The bright red color and tender texture of our pickled red peppers make them perfect for salads, sandwiches, antipasti platters, and as a garnish to add a pop of color and flavor to your favorite dishes.</li>"
             },
             "ar":{
                 "name": "الفلفل الأحمر",
@@ -152,7 +167,8 @@
                 "img1": "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168504/pic15_ggdk7n.webp",
                 "img2" :"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168515/pic16_gdsz9m.webp",
                 "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168504/pic15_ggdk7n.webp",
-                        "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168515/pic16_gdsz9m.webp"]
+                        "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168515/pic16_gdsz9m.webp"],
+                "descriptionList" : "<li>يعد الفلفل الأحمر المخلل الخاص بنا إضافة متعددة الاستخدامات وحيوية إلى مخزنك. يتم قطف هذا الفلفل، المعروف بمذاقه الحلو والمنعش قليلاً، يدويًا في ذروة النضج لضمان النكهة المثالية. ثم يتم مخلله في وعاء محلول ملحي رقيق، يعزز حلاوته الطبيعية ويضيف لمسة من الحموضة.اللون الأحمر الساطع والملمس الرقيق للفلفل الأحمر المخلل لدينا يجعله مثاليًا للسلطات والسندويشات وأطباق المقبلات وكزينة لإضافة لمسة من اللون والنكهة إلى أطباقك المفضلة.</li>"
             }
         },
         {
@@ -163,7 +179,8 @@
                 "img1":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168527/pic17_nnzzxe.webp",
                 "img2" :"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168540/pic18_woh8d8.webp",
                 "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168527/pic17_nnzzxe.webp",
-                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168540/pic18_woh8d8.webp"]
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168540/pic18_woh8d8.webp"],
+                "descriptionList": "<li>Sliced olives are a versatile option that saves time and effort in the kitchen. These olives have been thinly sliced, making them ready to use for quick and easy garnishing, toppings, or incorporation into recipes. They maintain the distinctive flavors and textures of their respective varieties, such as Manzanilla, Kalamata, Natural Picual, Dolce, and Azzizi. Sliced olives are available in different sizes, ranging from 80 to 360 per KG, and are a convenient addition to pizzas, sandwiches, pasta dishes, and more.</li>"
             },
             "ar":{
                 "name": "شرائح الزيتون",
@@ -171,7 +188,8 @@
                 "img1":"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168527/pic17_nnzzxe.webp",
                 "img2" :"https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168540/pic18_woh8d8.webp",
                 "images":["https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168527/pic17_nnzzxe.webp",
-                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168540/pic18_woh8d8.webp"]
+                "https://res.cloudinary.com/dfacoxwmq/image/upload/v1707168540/pic18_woh8d8.webp"],
+                "descriptionList" : "<li>تعد شرائح الزيتون خيارًا متعدد الاستخدامات يوفر الوقت والجهد في المطبخ. لقد تم تقطيع هذه الزيتون إلى شرائح رفيعة، مما يجعلها جاهزة للاستخدام للتزيين السريع والسهل أو الإضافات أو دمجها في الوصفات. فهي تحافظ على النكهات المميزة قوام أصنافها الخاصة، مثل مانزانيلا، كالاماتا، ناتشورال بيكوال، دولتشي، وعزيزي.شرائح الزيتون متوفرة بأحجام مختلفة، تتراوح من 80 إلى 360 للكيلوغرام الواحد، وهي إضافة مريحة للبيتزا والسندويشات وأطباق المعكرونة، و المزيد.</li>"
             }
         }
         

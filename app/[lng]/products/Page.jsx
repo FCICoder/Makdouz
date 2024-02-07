@@ -74,7 +74,12 @@ export default function Page({ params: { lng } }) {
                     <div className=' '>
                       {(lng === 'en') ? (
                         <div className=' text-center   ' id="connnte" >
-                          <Link href="#" id='prd_Link1' className='  '>
+                          <Link 
+                          href={{
+                            pathname: `/${lng}/productDetails`,
+                            query: { id: `${prd.id}` },
+                          }}
+                          id='prd_Link1' className='  '>
                             <div id='content-prds' className='' >
                               <Image
                                 id='prd_image'
@@ -102,7 +107,12 @@ export default function Page({ params: { lng } }) {
                         </div>
                       ) : (
                         <div className=' text-center  ' id="connnte" >
-                          <Link href="#" id='prd_Link1' className=' '>
+                          <Link 
+                           href={{
+                            pathname: `/${lng}/productDetails`,
+                            query: { id: `${prd.id}` },
+                          }}
+                          id='prd_Link1' className=' '>
                             <div id='content-prds' >
                               <Image
                                 id='prd_image'
@@ -160,7 +170,12 @@ export default function Page({ params: { lng } }) {
                   <div>
                     {(lng === 'en') ? (
                       <div className=' text-center  ' id="connnte" >
-                        <Link href="#" id='prd_Link1' className=' '>
+                        <Link 
+                         href={{
+                          pathname: `/${lng}/productDetails`,
+                          query: { id: `${prd.id}` },
+                        }}
+                        id='prd_Link1' className=' '>
                           <div id='content-prds' >
                             <Image
                               id='prd_image'
@@ -191,7 +206,12 @@ export default function Page({ params: { lng } }) {
                       </div>
                     ) : (
                       <div className=' text-center  ' id="connnte" >
-                        <Link href="#" id='prd_Link1' className=' '>
+                        <Link  
+                        href={{
+                            pathname: `/${lng}/productDetails`,
+                            query: { id: `${prd.id}` },
+                          }}
+                           id='prd_Link1' className=' '>
                           <div id='content-prds' >
                             <Image
                               id='prd_image'
