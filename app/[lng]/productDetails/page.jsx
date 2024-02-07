@@ -50,26 +50,57 @@ const Page = ({ params: { lng } }) => {
                             <div className="d-flex justify-content-between ">
                             <h2 id="prdDetails_title">{lng === 'en' ? prd.en.name : prd.ar.name}</h2>
                             <div>
-                            {prdId > 1 &&
-                                <Link
-                                    href={{
-                                        pathname: `/${lng}/productDetails`,
-                                        query: { id: `${prdId - 1}` },
-                                    }}
-                                >
-                                    <i className="fas fa-chevron-left text-body-secondary prdDetails_products " aria-hidden="true" onClick={handlePrevPrd}></i>
-                                </Link>
-                            }
-                            {prdId < products.products.length  &&
-                                <Link
-                                    href={{
-                                        pathname: `/${lng}/productDetails`,
-                                        query: { id: `${prdId + 1}` },
-                                    }}
-                                >
-                                    <i className="fas fa-chevron-right text-body-secondary prdDetails_products"  aria-hidden="true" onClick={handleNextPrd}></i>
-                                </Link>
-                            }
+                                {
+                                    (lng=='en')?
+                                    <>
+                                    {prdId > 1 &&
+                                        <Link
+                                            href={{
+                                                pathname: `/${lng}/productDetails`,
+                                                query: { id: `${prdId - 1}` },
+                                            }}
+                                        >
+                                            <i className="fas fa-chevron-left text-body-secondary prdDetails_products " aria-hidden="true" onClick={handlePrevPrd}></i>
+                                        </Link>
+                                    }
+                                    {prdId < products.products.length  &&
+                                        <Link
+                                            href={{
+                                                pathname: `/${lng}/productDetails`,
+                                                query: { id: `${prdId + 1}` },
+                                            }}
+                                        >
+                                            <i className="fas fa-chevron-right text-body-secondary prdDetails_products"  aria-hidden="true" onClick={handleNextPrd}></i>
+                                        </Link>
+                                    }
+                                    </>
+                                    
+                                    :
+                                    <>
+                                    {prdId > 1 &&
+                                        <Link
+                                            href={{
+                                                pathname: `/${lng}/productDetails`,
+                                                query: { id: `${prdId - 1}` },
+                                            }}
+                                        >
+                                            <i className="fas fa-chevron-right text-body-secondary prdDetails_products " aria-hidden="true" onClick={handlePrevPrd}></i>
+                                        </Link>
+                                    }
+                                    {prdId < products.products.length  &&
+                                        <Link
+                                            href={{
+                                                pathname: `/${lng}/productDetails`,
+                                                query: { id: `${prdId + 1}` },
+                                            }}
+                                        >
+                                            <i className="fas fa-chevron-left text-body-secondary prdDetails_products"  aria-hidden="true" onClick={handleNextPrd}></i>
+                                        </Link>
+                                    }
+                                    </>
+                                
+                                }
+                            
                             
                             </div>
                            
