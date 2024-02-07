@@ -122,4 +122,4 @@ const Page = ({ params: { lng } }) => {
     );
 }
 
-export default page;
+export default Page;
