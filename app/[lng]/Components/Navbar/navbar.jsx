@@ -56,23 +56,23 @@ export const Navbar = ({ lng }) => {
               <Nav.Link className="Nav" href={`/${lng}`}>
                 {lng == "en" ? "Home" : "الصفحةالرئيسيه"}
               </Nav.Link>
-              <Nav.Link className="Nav" href= {`/${lng}/products`}>
+              <Nav.Link className="Nav" href={`/${lng}/products`}>
                 {lng == "en" ? "Products" : "المنتجات"}
               </Nav.Link>
-              <Nav.Link className="Nav"  href= {`/${lng}/quote-request`}>
+              <Nav.Link className="Nav" href={`/${lng}/quote-request`}>
                 {lng == "en" ? "quoteRequest" : "اطلب"}
               </Nav.Link>
-              <Nav.Link className="Nav"   href= {`/${lng}/careers`}>
+              <Nav.Link className="Nav" href={`/${lng}/careers`}>
                 {lng == "en" ? "Careers" : "مهنتنا"}
               </Nav.Link>
-              <Nav.Link className="Nav"  href= {`/${lng}/about-us`}>
+              <Nav.Link className="Nav" href={`/${lng}/about-us`}>
                 {lng == "en" ? "AboutUs" : "نبذةعنا"}
               </Nav.Link>
               <Nav.Link
                 className="Nav  "
                 href="https://www.facebook.com/makdouz"
               >
-                <i className="fab fa-facebook py-1 fs-3 " style={{marginTop:"25px"}}></i>
+                <i className="fab fa-facebook py-1 fs-3 " style={{ marginTop: "25px" }}></i>
               </Nav.Link>
             </Nav>
           </Nav_bar.Collapse>

@@ -4,7 +4,7 @@ import products from "../products/products.json";
 import Images from "./Images";
 import Link from "next/link";
 
-const Page = ({ params: { lng } }) => {
+const page = ({ params: { lng } }) => {
     const [product, setProduct] = useState([]);
     const [prdId, setPrdId] = useState(0);
 
@@ -122,4 +122,4 @@ const Page = ({ params: { lng } }) => {
     );
 }
 
-export default Page;
+export default page;
